@@ -36,7 +36,7 @@
 docker ps
 ```
 
-![Screen_01](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_01.png)
+![Screen_01](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_01.png)
 
 Контейнер с memcached имеет имя memcached_test, к нему проброшен порт 11211. При помощи telnet обратимся к memcached
 
