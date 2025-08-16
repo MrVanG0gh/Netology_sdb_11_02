@@ -49,7 +49,7 @@ telnet localhost 11211
 stats
 ```
 
-![Screen_02](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_02.png)
+![Screen_02](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_02.png)
 
 Видим, что memcached в контейнере готов к работе.
 
@@ -78,7 +78,7 @@ test2
 
 get name2
 ```
-![Screen_03](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_03.png)
+![Screen_03](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_03.png)
 
 По скриншоту видно, что по прошествии TTL значения вытесняются из базы.
 
@@ -96,7 +96,7 @@ get name2
 
 Следуя рекомендациям из лекции redis был запущен в контейнере redis_test:
 
-![Screen_04](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_04.png)
+![Screen_04](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_04.png)
 
 Для того, чтобы поработать с контейнером запустим redis-cli напрямую из контейнера:
 
@@ -104,7 +104,7 @@ get name2
 docker exec -it redis_test redis-cli
 ```
 
-![Screen_05](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_05.png)
+![Screen_05](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_05.png)
 
 в консоли redis создадим пару записей
 
@@ -113,7 +113,7 @@ set name1 TST_1
 set name2 TST_2
 ```
 
-![Screen_06](https://github.com/MrVanG0gh/Netology_sdb_11_02/tree/main/screens/Screen_06.png)
+![Screen_06](https://github.com/MrVanG0gh/Netology_sdb_11_02/blob/main/screens/Screen_06.png)
 
 Проверим, что записи существуют:
 
